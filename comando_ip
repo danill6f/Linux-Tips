@@ -1,0 +1,5 @@
+ip a
+ip route sh
+ip route del default
+ip addr add 192.168.42.100/24 dev enp0s3
+ip route add default via 192.168.42.1 dev enp0s3
